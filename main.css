@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+.nav-bar .nav-link-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-link-wrapper .right {
+  display: flex;
+  align-items: center;
+}
+.nav-bar .nav-link-wrapper .right .nav-link {
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem 0;
+  font-size: 12px;
+}
+.nav-bar .nav-link-wrapper .right .nav-link.more {
+  background-color: #e91e63;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+.page-hook {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  background-image: url("https://www.hawaii.edu/news/wp-content/uploads/2021/10/gnrc-statue-of-liberty.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 600px;
+  width: 1450px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -80px;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  text-align: center;
+  font-size: 67px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero-content h4 {
+  text-align: center;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.hero-content button {
+  text-align: center;
+  background-color: #e91e63;
+  color: #ffffff;
+  padding: 16px 26px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.shadow-box {
+  background-color: #ffffff;
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.page-content {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  justify-content: center;
+}
+
+.label-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 18%;
+  width: 60%;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 65%;
+  margin-left: 13%;
+}
+.labels .response {
+  margin-left: 14px;
+}
+
+.lorem {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 100px;
+  color: #999999;
+  font-size: 14px;
+}
+
+.page-content h2 {
+  color: #3c4858;
+  font-size: 42px;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.page-content p {
+  display: flex;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-section h3 {
+  font-size: 20px;
+  color: #333333;
+}
+
+.about-section p {
+  color: #666666;
+}
+
+.blog-section {
+  margin-bottom: 20px;
+}
+
+.blog-section h3 {
+  font-size: 20px;
+  color: #333333;
+}
+
+.blog-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-section li {
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color: #333333;
+}
+
+.contact-section p {
+  color: #666666;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #666666;
+  font-size: 14px;
+}/*# sourceMappingURL=main.css.map */
